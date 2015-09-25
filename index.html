@@ -2,7 +2,7 @@
 <html lang="en-us">
   <head>
     <meta charset="UTF-8">
-    <title>Ce554-joyride.GitHub.com by ce554-joyride</title>
+    <title>JoyRide Data Collection</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
@@ -93,8 +93,8 @@
   </head>
   <body>
     <section class="page-header">
-      <h1 class="project-name">Ce554-joyride.GitHub.io</h1>
-      <h2 class="project-tagline">Resource for data collection</h2>
+      <h1 class="project-name">JoyRide Data Collection</h1>
+      <h2 class="project-tagline">Data Collection for JoyRide drivers</h2>
     </section>
 
     <section class="main-content">
@@ -104,18 +104,40 @@
 <p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here <a href="https://guides.github.com/features/mastering-markdown/">using GitHub Flavored Markdown</a>, select a template crafted by a designer, and publish. After your page is generated, you can check out the new <code>gh-pages</code> branch locally. If you’re using GitHub Desktop, simply sync your repository and you’ll see the new branch.</p>
 
         <div class="demo">
-            <p>&#215; Disable display input</p>
+            <p>&#215; Number on Board</p>
             <pre>
 data-width="100"
 data-displayInput=false
+data-min="0" 
+data-max="7" value="1" data-fgColor="#FF8200"
+data-angleOffset=-125
+data-angleArc=250
+data-displayPrevious=true
             </pre>
-            <input class="knob" data-width="100" data-displayInput=true data-min="0" 
+            <input class="knob" name="numberonboard" data-width="100" data-displayInput=true data-min="0" 
             data-max="7" value="1" data-fgColor="#FF8200"
             data-angleOffset=-125
-            data-angleArc=250>
+            data-angleArc=250
+            data-displayPrevious=true>
         </div>
 
-
+        <div class="demo">
+            <p>&#215; Number Got Off</p>
+            <pre>
+data-width="100"
+data-displayInput=false
+data-min="0" 
+data-max="7" value="1" data-fgColor="#FF8200"
+data-angleOffset=-125
+data-angleArc=250
+data-displayPrevious=true
+            </pre>
+            <input class="knob" name="numbergotoff" data-width="100" data-displayInput=true data-min="0" 
+            data-max="7" value="1" data-fgColor="#58595B"
+            data-angleOffset=-125
+            data-angleArc=250
+            data-displayPrevious=true>
+        </div>
 
 
 <h3>
